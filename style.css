@@ -1,0 +1,22 @@
+table {
+    width: 100%;
+    min-height: 10vh;
+    border: 1px solid #000000;
+}
+
+th, td  {
+    padding: 10px;
+    border: 1px solid #000000;
+}
+
+th {
+    cursor: pointer;
+}
+
+th:hover {
+    background-color: aqua;
+}
+
+tbody > tr:hover {
+    background-color: aqua;
+}
