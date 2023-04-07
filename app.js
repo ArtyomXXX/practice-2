@@ -5,9 +5,6 @@ async function getResponse() {
     if (response.ok) {
         let data = await response.json();
 
-
-        console.log(data[0].id)
-
         for (let key in data) {
             // console.log(data[key]);
 
@@ -24,8 +21,6 @@ async function getResponse() {
 
             ID.setAttribute('style', 'text-align: center;');
             userID.setAttribute('style', 'text-align: center;');
-            title.setAttribute('style', 'text-align: justify;');
-            body.setAttribute('style', 'text-align: justify;');
 
             document.getElementById('tbody').append(tableRow);
             tableRow.append(ID);
