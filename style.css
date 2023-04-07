@@ -2,6 +2,19 @@ body {
     margin: 0;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 table {
     width: 100%;
     min-height: 10vh;
